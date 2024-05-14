@@ -43,5 +43,6 @@
   "resolutions": {
     "@headlessui/react": "1.7.7"
   },
+  "packageManager": "^pnpm@7.33.5",
   "license": "MIT"
 }

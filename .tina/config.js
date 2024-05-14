@@ -178,9 +178,9 @@ export const config = defineStaticConfig({
       if (context.branch === "main") return { url: "" };
 
       return {
-        url: `https://demo-docs-git-${decodeURIComponent(context.branch)
+        url: `https://tina-docs-demo-git-${decodeURIComponent(context.branch)
           ?.replace("/", "-")
-          ?.replace(" ", "-")}-tinacms.vercel.app`,
+          ?.replace(" ", "-")}-wicksipedias-projects.vercel.app`,
       };
     },
   },

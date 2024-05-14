@@ -175,7 +175,7 @@ var config = defineStaticConfig({
       if (context.branch === "main")
         return { url: "" };
       return {
-        url: `https://demo-docs-git-${decodeURIComponent(context.branch)?.replace("/", "-")?.replace(" ", "-")}-tinacms.vercel.app`
+        url: `https://tina-docs-demo-git-${decodeURIComponent(context.branch)?.replace("/", "-")?.replace(" ", "-")}-wicksipedias-projects.vercel.app`
       };
     }
   },
